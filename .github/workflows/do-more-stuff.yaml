@@ -7,4 +7,4 @@ jobs:
       - name: step one of doing more stuff
         id: example
         run: |
-          echo I'm doing more stuff now
+          echo "I am doing more stuff now"
