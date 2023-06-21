@@ -1,0 +1,10 @@
+on:
+  workflow_call:
+jobs:
+  start-doing-stuff:
+    runs-on: self-hosted
+    steps:
+      - name: step one of doing more stuff
+        id: example
+        run: |
+          echo I'm doing more stuff now
