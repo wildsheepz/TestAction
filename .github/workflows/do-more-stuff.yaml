@@ -2,7 +2,7 @@ on:
   workflow_call:
 jobs:
   start-doing-stuff:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: step one of doing more stuff
         id: example

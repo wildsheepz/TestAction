@@ -2,7 +2,7 @@ on:
   workflow_call:
 jobs:
   pre-task-prep:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Print Repo and Branch name to be scanned.
         run: |
