@@ -7,9 +7,6 @@ jobs:
       - name: Print Repo and Branch name to be scanned.
         run: |
           echo prepare to do more stuff
-          pwd
-          ls -lah
-          env
   do-more-stuff:
     needs: pre-task-prep
     uses: ./.github/workflows/do-more-stuff.yaml
